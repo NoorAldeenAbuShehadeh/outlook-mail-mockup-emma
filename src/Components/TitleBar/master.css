@@ -1,0 +1,30 @@
+.title-bar{
+  font-size: 1.065rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.114);
+  padding: 0 0.82em 0 1rem;
+}
+
+.first-sec-title-bar, .second-sec-title-bar{
+  display: flex;
+  align-items:center;
+}
+
+.first-sec-title-bar{
+  justify-content: space-between;
+  width: 40%;
+}
+
+.second-sec-title-bar{
+  color: RGB(1, 120, 212);
+  margin-top: 0.25em;
+}
+
+.star{
+  margin-top: 0.4em;
+  color: RGB(1, 120, 212);
+
+}

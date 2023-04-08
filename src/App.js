@@ -1,10 +1,10 @@
-
 import './App.css';
-import LeftSide from './Components/LeftSide';
+import DonwSection from './Components/DownSection';
+
 function App() {
   return (
     <div>
-      <LeftSide />
+      <DonwSection/>
     </div>
   );
 }

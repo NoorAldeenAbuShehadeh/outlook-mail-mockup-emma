@@ -1,0 +1,14 @@
+.seperator{
+  width: 333px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding-left: 3.786em;
+  font-size: 0.95rem;
+  background-color: RGB(237, 235, 233, 0.4);
+  border-bottom: 1px solid RGB(237, 235, 233);
+  box-sizing: border-box;
+}
+.seperator p{
+  margin: auto 0;
+}
