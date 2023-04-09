@@ -1,16 +1,15 @@
 import React from 'react'
 import ListItemTitle from '../ListItemTitle'
-import RightArrow from '../../icons/Icon-Arrow-up.png'
 import './Style.css'
 import Count from '../Count'
-const ListItem = () => {
+const ListItem = ({title,iconSrc,count}) => {
   return (
     <button className='listItem'>
       <span>
-        <img src={RightArrow} className='listItemicon'/>
-        <ListItemTitle />
+        <img src={iconSrc} className='listItemicon'/>
+        <ListItemTitle title={title}/>
       </span>
-        <Count />
+        {count>0 && <Count count={count}/>}
     </button>
   )
 }

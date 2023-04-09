@@ -1,8 +1,8 @@
 import React from 'react'
 import './Style.css'
-const ListItemTitle = () => {
+const ListItemTitle = ({title}) => {
   return (
-    <p className='ListItemTitle'>Favorites</p>
+    <p className='ListItemTitle'>{title}</p>
   )
 }
 

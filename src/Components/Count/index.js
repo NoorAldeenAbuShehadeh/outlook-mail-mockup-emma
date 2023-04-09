@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Count = () => {
+const Count = ({count}) => {
   return (
-    <span>5</span>
+    <span>{count}</span>
   )
 }
 
