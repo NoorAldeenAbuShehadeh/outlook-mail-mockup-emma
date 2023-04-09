@@ -1,10 +1,11 @@
+import Navbar from './Components/Navbar'
 import './App.css';
 import DonwSection from './Components/DownSection';
 
 function App() {
   return (
-    <div>
-      <DonwSection/>
+    <div className="App">
+     <Navbar />
     </div>
   );
 }
