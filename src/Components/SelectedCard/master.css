@@ -1,0 +1,17 @@
+.radio{
+  margin: 0.67em 1em 0 0;
+  width: 26px;
+  box-sizing: border-box;
+}
+
+.selected{
+  width: 332px;
+  height: 81px;
+  background-color: RGB(199, 224, 244);
+  padding-right: 25px;
+  overflow:visible;
+}
+
+.selected p{
+  line-height: 112%;
+}

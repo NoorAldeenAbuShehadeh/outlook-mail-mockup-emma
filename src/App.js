@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import Navbar from './Components/Navbar'
 import './App.css';
+import DonwSection from './Components/DownSection';
 
 function App() {
   return (
@@ -11,3 +11,4 @@ function App() {
 }
 
 export default App;
+

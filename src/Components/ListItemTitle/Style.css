@@ -1,0 +1,10 @@
+.ListItemTitle{
+    font-size: 15px;
+    font-weight: 500;
+    color: #323130;
+    user-select: none;
+}
+
+.ListItemTitle:hover{
+    color: blue;
+}

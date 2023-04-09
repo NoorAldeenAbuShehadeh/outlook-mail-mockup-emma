@@ -1,0 +1,8 @@
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  width: 333px;
+  padding: 0.4375em 1.1em 0.625em 0.8125em;
+  box-sizing: border-box;
+  border-bottom: 1px solid RGB(237, 235, 233);
+}
